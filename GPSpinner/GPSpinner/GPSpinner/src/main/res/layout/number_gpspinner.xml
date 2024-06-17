@@ -21,6 +21,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="30px"
             android:layout_weight="1">
 
             <TextView
@@ -49,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:text="30"
                 android:textColor="#ffffff"
-                android:textSize="40px"
+                android:textSize="60px"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -61,6 +62,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
             android:layout_marginTop="30px"
             android:layout_marginBottom="30px"
             android:background="@drawable/bg_number_gpspinner_item">
@@ -102,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:textColor="#ffffff"
-                android:textSize="40px"
+                android:textSize="60px"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -113,6 +116,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="30px"
             android:layout_weight="1">
 
             <TextView
